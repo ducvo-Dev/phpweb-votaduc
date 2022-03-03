@@ -1,0 +1,342 @@
+ 
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial, time new romans, san serif;
+	front-size: 10px; 
+}
+#wrapper
+{
+	width: 1000px;
+	min-height: 900px;
+	margin: 0 auto;
+	
+}
+header
+{
+	min-height: 180px;
+	border: 1px ;
+}
+/***************************** slide show ************************************/
+#slideshow
+{
+
+	min-height: 400px;
+	border: 0.5px solid #CDCDB4 ;
+	position: relative;
+	background-image: url("../images/slide1.jpg");
+	animation-name: mymove;	
+	animation-duration: 12s;
+	animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mymove
+
+{
+	0% {background-image: url("../images/slide1.jpg");}
+	40% {background-image: url("../images/slide2.jpg");}
+	70% {background-image: url("../images/slide3.jpg");}
+	100% {background-image: url("../images/slide1.jpg");}
+
+}
+
+/*********************************************/
+
+#content
+{
+	min-height: 900px;
+	border: 0.5px solid #CDCDB4;
+	background-color: #ddd;
+}
+footer
+{
+	min-height: 110px;
+	border: 0.5px solid#ddd; 
+	background-color: #ddd;
+	padding-left: 15px;
+}
+#banner
+{
+	background-image: url("../images/biaheader.png");
+	min-height: 200px;
+	border: 1px solid#CDCDB4;
+	border-bottom: none;
+	background-color: white;
+	
+}
+#globalnav
+{
+	min-height: 39px;
+	border: 1px solid #CDCDB4 ;	
+	background-color: 	#B0E0E6;
+	border-top: none;
+}
+#left
+{
+	width: 720px;
+	min-height: 900px;
+	border: 0px solid white ;
+	background-color: white;
+	float: left;
+	margin-left: 0;
+}
+#right
+{
+	width: 274px;
+	min-height: 900px;
+	border: 0px solid white ;
+	background-color: white;
+	float: left;
+	margin: 0px 0px 0px 4px;
+
+}
+.cls
+{
+	min-height: 20px;
+	background-color: #ddd;
+	clear: both;
+}
+#banner2
+{
+	width: 710px;
+	min-height: 390px;
+	margin: 5px 5px 6px 6px;
+	border: 0.5px solid #CDCDB4;
+	background-color: #ddd;
+	background-image: url("../images/bia2.png");
+}
+.f
+{
+	width: 710px;
+	min-height: 171px;
+	padding: 1px 2px 10px 6px;
+	border: 0.5px solid #CDCDB4;
+	background-color: white;
+	
+}
+
+h2
+{
+	
+	color:black;
+	background-color: aliceblue;
+	margin-top: 0px;
+	width: 270px;
+	height: 30px;
+	border-radius: 5%;
+	text-align: center;
+	font-family: PalatinoLinotype;
+	
+	
+}
+h5
+{
+	font-family:Lucida Sans Unicode;
+	margin-top: 10px;
+	height: 0px;
+	color:black;
+	
+}
+
+/*********************** Thanh navBar ************************/
+.navbar
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #87CEFF;
+font-family: Times New Roman;
+
+}
+#navbar-header
+{	
+    font-size:22px;
+    text-decoration:none;
+    padding-top: 1px;
+}
+.navbar111{
+	float: left;
+
+}
+.navbar111 a
+{
+text-decoration: none;
+text-align: center;
+display: block;
+padding: 7px 9px;
+background-color: #B0E0E6;
+
+}
+.navbar111 :hover
+{
+	transition:0.3s;
+	background-color:#7EC0EE ;
+	color: honeydew;
+}
+ div a
+ {
+ 	color: #1C1C1C;
+ }
+ /******************** Dropdow bar ************************************/
+.dropdown-bar
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #87CEFF;
+position: relative;
+z-index: 1;
+
+}
+
+.dropdown-bar .navbar222
+{	
+    font-size:16px;
+    text-decoration:none;
+    padding-top: 1px;
+}
+.dropdown-bar a
+{
+text-decoration: none;
+text-align: center;
+display: block;
+padding: 7px 9px;
+background-color: #B0E0E6;
+
+}
+
+.dropdown-bar :hover
+{
+	transition:0.5s;
+	background-color:#7EC0EE ;
+	color: honeydew;
+	
+	
+
+}
+ div a
+ {
+ 	color: #1C1C1C;
+ } 
+#globalnav ul .dropdown-bar
+ {
+	 position: absolute;
+	opacity: 0;
+
+ }    
+
+#globalnav ul :hover .dropdown-bar
+{
+	opacity: 95%;
+	transition: 0.5s;
+	
+}
+ /*********************************************************/
+
+ /**************************Tag Right *******************************/
+
+ #mod
+ {
+	 width: 270px;
+	 min-height: 225px;
+	 border: 0.5px solid #CDCDB4;
+	 margin: 0;
+	 background-color: #c6edf3;	
+
+	
+	 
+ }
+.content-right a
+{
+	font-family: Times New Roman;
+	font-size: 18px;
+	text-decoration: none;	
+}
+.content-right a:hover
+{
+text-decoration: underline;
+color: gray;
+}
+ #mod2
+ {
+	 width: 270px;
+	 min-height: 135px;
+	 border: 0.5px solid #CDCDB4;
+	 margin: 0;
+	 background-color: #c6edf3;	
+ } 
+ #mod3
+ {
+	 width: 270px;
+	 min-height: 80px;
+	 border: 0.5px solid #CDCDB4;
+	 margin: 0;
+	
+ } 
+ #mod4
+ {
+	 width: 270px;
+	 min-height: 205px;
+	 border: 0.5px solid #CDCDB4;
+	 font-family: Times New Roman;
+	 margin: 0;
+	 background-color: #c6edf3;	
+ } 
+ #mod5
+ {
+	 width: 270px;
+	 min-height: 125px;
+	 border: 0.5px solid #CDCDB4;
+	 margin: 0;
+	 	
+ }
+ /*********************************************************/
+
+ /**************************Tag left *******************************/
+ .divleft
+{
+	width: 350px;
+	min-height: 145px;
+	border: 1px solid white ;
+	background-color: 	#B0E0E6;
+	float: left;
+	font-family: serif;
+}
+.divright
+{
+	width: 350px;
+	min-height: 145px;
+	border: 1px solid white ;
+	background-color: 	#B0E0E6;
+	float: left;
+
+}
+
+
+ .divleft a{
+	 color: #2A68D2;
+	 text-decoration: none;
+	 font-size: 17px;
+ }
+ .divleft a:hover{
+ text-decoration: underline;
+ }
+
+ .content-left a
+{
+	text-decoration: none;	
+}
+.content-left a:hover
+{
+text-decoration: underline;
+color: #00868B;
+}
+.content-left
+{
+	list-style-type: georgian;
+	font-style: italic;
+}
+
+  /************************** *******************************/
